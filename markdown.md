@@ -3,39 +3,41 @@ Markdown Cheatsheet<a name="TOP"></a>
 [NoteBook File link](markdown_cheatSheet.ipynb)
 
 
-# Heading 1 #
+# Heading 1 
 
-## Heading 2 ##
+## Heading 2 
 
-### Heading 3 ###
+### Heading 3 
 
-### Heading 3 ###
+#### Heading 4 
 
-#### Heading 4 ####
+# Common_text
 
-Common text
+## `Italic text` `_`, `*`
+_Italic text_ or *Italic*
 
-_Italic text_
-
-_Italic text_ or *Italic text*
-
-~~Strikethrough text~~
-
-__Strong text__
+## `Strong text` `__`, `**`
 
 __Strong text__ or **Strong text**
 
-___Strong Italic text___
+## `Strong Italic text` `___`, `***`
 
 ___Strong Italic text___ or ***Strong Italic text***
 
-[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+## `Strickethrough` `~~`
+~~Strikethrough text~~
 
-[heading-3](#heading-3 "Goto heading-3")
+<br><br>
 
-[html Example 1](#exampleHead)
+# Link `[link-name](path, "title")`
 
-Table, like this one :
+1. [Named Link](http://www.google.fr/ "Named link title")
+2. <http://example.com/>
+3. [Id Link](#common_text "Goto Common_text")
+
+<br>
+
+# Table, like this one:
 
 First Header  | Second Header
 ------------- | -------------
@@ -49,7 +51,7 @@ Content Cell  | Content Cell
 Content Cell  | Content Cell
 ```
 
-Adding a pipe `|` in a cell :
+## Adding a pipe `|` in a cell :
 
 First Header  | Second Header
 ------------- | -------------
@@ -66,18 +68,11 @@ Content Cell  |  \|
 Left, right and center aligned table
 
 Left aligned Header | Right aligned Header | Center aligned Header
-| :--- | ---: | :---:
+| :---        | ---:         | :---:
 Content Cell  | Content Cell | Content Cell
 Content Cell  | Content Cell | Content Cell
 
-```
-Left aligned Header | Right aligned Header | Center aligned Header
-| :--- | ---: | :---:
-Content Cell  | Content Cell | Content Cell
-Content Cell  | Content Cell | Content Cell
-```
-
-`code()`{#example1}
+<br><br>
 
 `code()`
 
@@ -85,25 +80,24 @@ Content Cell  | Content Cell | Content Cell
 <p>paragraph <b>emphasis</b>
 ```
 
+
 ```javascript
-    var specificLanguage_code = 
-    {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test Transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
-            }
+var specificLanguage_code = 
+{
+    "data": {
+        "lookedUpPlatform": 1,
+        "query": "Kasabian+Test+Transmission",
+        "lookedUpItem": {
+            "name": "Test Transmission",
+            "artist": "Kasabian",
+            "album": "Kasabian",
+            "picture": null,
+            "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
         }
     }
+}
 ```
 
-    Markup : ```javascript
-             ```
 
 * Bullet list
     * Nested bullet
@@ -111,17 +105,17 @@ Content Cell  | Content Cell | Content Cell
 * Bullet list item 2
 
 ~~~
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
 
 -OR-
 
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+- Bullet list
+    - Nested bullet
+        - Sub-nested bullet etc
+- Bullet list item 2 
 ~~~
 
 1. A numbered list
@@ -130,44 +124,44 @@ Content Cell  | Content Cell | Content Cell
 2. Which is numbered
 
 ~~~
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+1. A numbered list
+    1. A nested numbered list
+    2. Which is numbered
+2. Which is numbered
 ~~~
 
 - [ ] An uncompleted task
 - [x] A completed task
 
 ~~~
- Markup : - [ ] An uncompleted task
-          - [x] A completed task
+- [ ] An uncompleted task
+- [x] A completed task
 ~~~
 
 - [ ] An uncompleted task
     - [ ] A subtask
 
 ~~~
- Markup : - [ ] An uncompleted task
-              - [ ] A subtask
+- [ ] An uncompleted task
+- [ ] A subtask
 ~~~
 
 > Blockquote
->> Nested blockquote
+>> Nested blockquote skldjf lkjsldkfj kldfjkl sdjfsdlkf slkdfj sdkjf dsfh sdkljfl sdlkfjls djjsfd ljsjdlkfhksdl fljdlkf lsdkjf lsdkjfklsd kjjfsd hlsjdkljfsd lkdjskljfsdfl sdlkjf ldskjflk dsjkflj sdkjklfsdj lksdjf jsdfl jkldjf lkjdlksd lsjdjsdkf Nested blockquote skldjf lkjsldkfj kldfjkl sdjfsdlkf slkdfj sdkjf dsfh sdkljfl sdlkfjls djjsfd ljsjdlkfhksdl fljdlkf lsdkjf lsdkjfklsd kjjfsd hlsjdkljfsd lkdjskljfsdfl sdlkjf ldskjflk dsjkflj sdkjklfsdj lksdjf jsdfl jkldjf lkjdlksd lsjdjsdkf
 
 > Blockquote
-              >> Nested Blockquote
+>> Nested Blockquote
 
-_Horizontal line :_
-- - - -
+# Horizontal line :
 
 - - - -
+----
 
 _Image with alt :_
 
 ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
-    Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 Foldable text:
 
