@@ -1,0 +1,27 @@
+Virtual Environment & Requirements.txt
+
+virtual environment
+
+Open CMD/PowerShell as Admin
+
+Old Virsion :
+Install :  pip install virtualenv
+
+create without site packages : virtualenv MSK (name of environment)
+create with site packages : virtualenv --system-site-packages MSK 
+
+New Version:
+create : python -m venv MSK (name of enviroment)
+
+
+Activation : .\MSK\Scripts\activate (path of folder) 
+if error : set-executionpolicy remotesigned (run as Admin)
+Yes/No : Yes
+then : Activation
+
+Deactivate Environment: deactivate
+
+Create Requirements.txt
+
+create : pip freeze > requirements.txt
+install requirements : pip install -r requirements.txt (path of file)
