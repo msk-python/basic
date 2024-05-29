@@ -1,9 +1,6 @@
-import os
-from folder1.file1  import *
+from folder1.file1  import fun1
+from folder2.file1 import fun2
 
-os.system("cls")
+fun2(4, 6)
 
-def fun3(x, y):
-    z = x*y
-    print("divided value is:")
-    print(z)
+# fun1(4,5)

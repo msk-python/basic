@@ -8,7 +8,6 @@ B = float(B)
 C = float(C)
 D = float(D)
 
-
 print("Type of A : " , type(A))
 print("Type of B : " , type(B))
 print("Type of C : " , type(C))
