@@ -8,7 +8,10 @@ B = int(B)
 C = int(C)
 # D = int(D) # D will be error use first float then convert to int
 
+x = float(D)
+y = int(x)
+
 print("Type of A : " , type(A))
 print("Type of B : " , type(B))
 print("Type of C : " , type(C))
-# print("Type of D : " , type(D))  
+print("Type of D : " , type(y))
