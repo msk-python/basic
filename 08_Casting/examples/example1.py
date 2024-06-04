@@ -8,12 +8,8 @@ D = "4.2"   # float in string
 # print(type(C))
 # print(type(D))
 
-x = str(A)
-y = str(B)
-z = str(C)
-w = str(D)
+a = str(A)
+b = str(B)
 
-print("Type of A : " , type(x))
-print("Type of B : " , type(y))
-print("Type of C : " , type(z))
-print("Type of D : " , type(w))
+print(type(a))
+print(type(b))

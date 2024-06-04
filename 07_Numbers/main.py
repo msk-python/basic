@@ -1,4 +1,4 @@
-import random
+import random, os
 
 while True:
     x = random.randrange(111111, 999999)
@@ -6,9 +6,11 @@ while True:
     y = int(input("Enter Your OTP: "))
 
     if x == y:
+        os.system("cls")
         print("OTP Valid: ✅")
         break
     else:
+        os.system("cls")
         print("\nPlease try again: ❌\n")
         continue
 
