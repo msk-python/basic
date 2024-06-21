@@ -12,6 +12,3 @@ person1 = {
     "age": 36,  
     "country": "India"  
 }
-
-age = person1["age"]
-print(age)
