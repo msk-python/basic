@@ -29,8 +29,14 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # s = "mskinstitute"
 # vowels = "aeiou"
-# count = sum(1 for char in s if char.lower() in vowels)
-# print(f"Number of vowels: {count}")
+# def countVowels(text):
+#     totalVoweles = 0
+#     for char in text:
+#         if char.lower() in vowels:
+#             totalVoweles += 1
+#     print(totalVoweles)
+
+# countVowels(s)
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
@@ -39,4 +45,43 @@
 # s = "hello world"
 # new_s = s.replace("world", "Python")
 # print(f"The new string is: {new_s}")
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+#---------------- Print only-one table ----------------------#
+# table = 2
+# for a in range(1, 11):
+#     result = a * table
+#     print(f"{table} * {a} : {result} ")
+
+# for tableNo in range(2, 21):
+#     print("\nTable : ", tableNo, "\n")
+#     for a in range(1, 11):
+#         result = a * tableNo
+#         print(f"{tableNo} * {a} : {result} ")
+#     print("\n#---------------------------#\n")
+
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# 9. Write a function to find the first non-repeated character in a string.
+def first_non_repeated_char(s):
+    char_count = {}
+    
+    for char in s:
+        if char in char_count:
+            char_count[char] += 1
+        else:
+            char_count[char] = 1
+    
+    for char in s:
+        if char_count[char] == 1:
+            return char
+    
+    return None
+
+# Example usage
+input_string = "swiss"
+result = first_non_repeated_char(input_string)
+print(f"The first non-repeated character is: {result}")
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
