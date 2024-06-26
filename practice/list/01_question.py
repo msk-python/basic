@@ -1,30 +1,13 @@
-# 1. How do you find the length of a string in Python?
-# 2. Write a program to reverse a string in Python.
-# 3. How can you check if a string is a palindrome in Python?
-# 4. How do you count the number of vowels in a given string?
+# 1. How to find the length of "a" string?
+# 2. How to reverse "a" string?
+# 3. How to check if a string is a palindrome.?
+#    racecar, level, rotor, noon, mom, wow, pop, refer, stats
+# 4. How to count the number of vowels in "a" string?
 # 5. Write a function to replace all occurrences of a substring in a string with another substring.
-# 6. How do you convert a string to uppercase and lowercase in Python?
+# 6. How to convert a string to uppercase and lowercase in Python?
 # 7. Write a program to remove all whitespace from a string.
 # 8. How can you check if a string contains only alphabets in Python?
-# 9. Write a function to find the first non-repeated character in a string.
-# 10. How do you split a string into a list of words?
-# 11. Write a program to find all substrings of a given string.
-# 12. How can you remove a specific character from a string in Python?
-# 13. Write a function to check if a string starts with a specified prefix and ends with a specified suffix.
-
-# Q1:
-# a = "Hello dear my friend"
-# print(len(a))
-
-#Q2:
-# name = ["Hello", "dear", "my friend"]
-# name.sort(reverse=True)
-# print(name)
-
-#Q3:
-# a = "Hello dear my friend"
-# text = "level"
-# textR = text == text[::-1]
-# print(textR)
-
-
+# 9. How to find the first non-repeated character in a string.
+# 10. How to split a string into a list of words?
+# 11. How can you remove a specific character from a string in Python?
+# 12. Write a function to check if a string starts with a specified prefix and ends with a specified suffix.
