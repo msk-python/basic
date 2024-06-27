@@ -10,4 +10,19 @@
 # 9. How to find the first non-repeated character in a string.
 # 10. How to split a string into a list of words?
 # 11. How can you remove a specific character from a string in Python?
-# 12. Write a function to check if a string starts with a specified prefix and ends with a specified suffix.
+
+a = "Best for learn coding"
+
+
+start = 2
+end = 20
+
+for t in range(start , end+1):
+    for a in range(1, 11):
+        print(f"{t} * {a} = {t*a}")
+    print("#-------------------------------------#")
+
+
+
+
+
