@@ -7,8 +7,3 @@ student = {
     "english": 87 
 }
 
-person1 = {  
-    "name": "Sumit",  
-    "age": 36,  
-    "country": "India"  
-}

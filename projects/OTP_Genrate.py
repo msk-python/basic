@@ -1,7 +1,7 @@
 import random, os
 
 while True:
-    x = random.randrange(111111, 999999)
+    x = random.randrange(1111, 9999)
     print(x)
     y = int(input("Enter Your OTP: "))
 
@@ -14,4 +14,4 @@ while True:
         print("\nPlease try again: ❌\n")
         continue
 
-print("Welcome to Website")
+print("Welcome to Website:")

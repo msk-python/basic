@@ -1,5 +1,6 @@
 import mymodule
 
-mymodule.greeting("Sumit")
+# mymodule.greeting("Mohit")
 
-print(mymodule.student)
+x =  mymodule.student["hindi"]
+print(x)

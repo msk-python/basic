@@ -1,4 +1,9 @@
 import pyttsx3
-engine = pyttsx3.init()
-engine.say("Hey I am good")
-engine.runAndWait()
+
+
+def speak(text):
+    e = pyttsx3.init()
+    e.say(text)
+    e.runAndWait()
+
+speak("this is good")
