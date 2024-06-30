@@ -30,28 +30,34 @@ from time import sleep
 
 #--------------------------- Message Box Functions ---------------------------------#
 # pyautogui.alert(text='Hello', title='How Are You', button='OK')
-# pyautogui.confirm(text='H', title='Hjksjd', buttons=['OK', 'Cancel'])
-# pyautogui.prompt(text='Please enter your password', title='Log In' , default='MSK !nstitute')
-# pyautogui.password(text='Enter Your Password', title='LogIn', default='', mask='*')
+# a = pyautogui.confirm(text='Do you want to confirm this', title='Check', buttons=['Yes', 'No'])
+# a = pyautogui.prompt(text='Please enter name: ', title='Log In' , default='MSK !nstitute')
+# a = pyautogui.password(text='Enter Your Password', title='LogIn', default='', mask='*')
+
 
 
 #--------------------------- Keyboard Functions ---------------------------------#
-# pyautogui.typewrite(['a', 'b', 'c', 'left', 'backspace', 'enter', 'f1'], interval=1)
+# pyautogui.typewrite(['a', 'b', 'c', 'left', 'backspace', 'enter', 'f1', 'esc'], interval=0.5)
 # pyautogui.hotkey('win', 'i') # Open Settings
+# sleep(3)                        # wait
+# pyautogui.hotkey('alt', 'f4') # Close Settings
+
 # hk = pyautogui.hotkey
 # pr = pyautogui.press
 # wr = pyautogui.write
-# kd = pyautogui.keyDown('tab')
-# sleep(2)
-# pyautogui.keyUp("tab")
+# pyautogui.keyDown('shift') # hold down the shift key
+# pyautogui.press('left') # press the left arrow key
+# pyautogui.press('left') # press the left arrow key
+# pyautogui.press('left') # press the left arrow key
+# pyautogui.keyUp('shift') 
 
-# pyautogui.size()            # return : screen resolution size
-# pyautogui.position()      # return : current X and Y coordinates of the mouse cursor
+
+# a = pyautogui.size()            # return : screen resolution size
+# a = pyautogui.position()      # return : current X and Y coordinates of the mouse cursor
 
 
 # Screenshot Functions
-# pyautogui.screenshot() # returns a Pillow/PIL Image object
-# pyautogui.screenshot('foo.png') # returns a Pillow/PIL Image object, and saves it to a file
+# a = pyautogui.screenshot() # returns a Pillow/PIL Image object
+pyautogui.screenshot('MSK.png') # returns a Pillow/PIL Image object, and saves it to a file
 
-
-
+# print(a)
