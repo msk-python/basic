@@ -1,4 +1,4 @@
-import pyttsx3
+import pyttsx3, os
 
 e = pyttsx3.init()
 
@@ -15,18 +15,24 @@ def speak(text):
     e.say(text)
     e.runAndWait()
 
-value = int(input("Enter a Value: "))
-
-def check_even(value):
-    return value % 2 == 0
-
-if check_even(value):
-    speak("This value is Even")
-else:
-    speak("This value is Odd")
-
-
-
-
-
-
+while True:
+    import os
+    os.system('cls')
+    user = input("You: ")
+    bot = ""
+    if "hi" in user:
+        bot = "Hello"
+        print("Bot: " , bot)
+        speak(bot)
+    elif "notepad" in user:
+        bot = "Ok, Opening Notepad"
+        print("Bot: " , bot)
+        speak(bot)
+        os.system("notepad")
+    elif "calc" in user:
+        bot = "Ok, Opening Calculator"
+        print("Bot: " , bot)
+        speak(bot)
+        os.system("calc")
+        
+    
