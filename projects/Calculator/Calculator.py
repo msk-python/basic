@@ -5,7 +5,7 @@ os.system('cls')
 class history():
     def show():
         os.system('cls')
-        file = open("projects/history.txt", "r")
+        file = open("projects/Calculator/history.txt", "r")
         print("\n#------------------ History ------------------# \n")
         for x in file:
             print(x)
@@ -13,13 +13,13 @@ class history():
         file.close()
 
     def clear():
-        file = open("projects/history.txt", "w")
+        file = open("projects/Calculator/history.txt", "w")
         file.write("")
         os.system('cls')
         print("All History Clear")
 
     def update_history(value):
-        file = open("projects/history.txt", "a")
+        file = open("projects/Calculator/history.txt", "a")
         file.write(value)
         file.close()
     
@@ -30,8 +30,6 @@ while True:
         os.system('cls')
         print("#------------------ Thanks for Using Me ------------------#\n")
         break
-    elif "r" in a:
-        continue
     elif "h" in a:
         history.show()
         continue
@@ -45,7 +43,7 @@ while True:
         result = eval(a)
         os.system('cls')
         print(f'{a} : {result}')
-        history.update_history(f"{a} : {result}\n")
+        history.update_history(f'{a} : {result}\n')
     except Exception as e:
         print("Invalid input. Please enter a valid mathematical expression.")
 

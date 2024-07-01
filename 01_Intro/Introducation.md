@@ -28,3 +28,5 @@ By the end of this course, you will:
 - Be able to write and execute Python programs.
 - Understand how to work with data structures, control structures, and functions.
 - Be prepared to tackle more advanced Python topics and applications.
+
+[Next >>](../03_Syntax/Syntax.ipynb)
