@@ -1,2 +1,0 @@
-sumit: 2/3
-sumit: 1/3
