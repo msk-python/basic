@@ -1,6 +1,9 @@
 import pyttsx3, os, webbrowser
 import speech_recognition as sr   
 
+# https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
+
+
 # pip install speechRecognition 
 # pip install PyAudio
 # pip install datefinder
@@ -22,9 +25,7 @@ def query():
     except Exception as e:
         print(f"==> Error: {e}")
         return "None"
-    
-    
-    
+
 e = pyttsx3.init()
 e.setProperty('rate', 125)
 voices = e.getProperty('voices')
@@ -33,8 +34,6 @@ e.setProperty('voice', voices[1].id)
 def speak(text):
     e.say(text)
     e.runAndWait()
-
-
 
 while True:
     import os

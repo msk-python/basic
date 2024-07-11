@@ -1,12 +1,8 @@
 import os 
 
-while True:
-    print("Press (q) for exit: ")
-    x = input("Enter value: ")
 
-    if "q" in x:
-        os.system('cls')
-        print("#-------------------- Thanks for using -----------------#")
-        break
+i = 0
 
-    print("Loop Continue")
+while i < 12:
+    print(i)
+    i += 1
