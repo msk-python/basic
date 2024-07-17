@@ -39,13 +39,12 @@ while True:
 
     #------------------------------ Result Calculation -------------------#
 
-    try:
-        result = eval(a)
-        os.system('cls')
-        print(f'{a} : {result}')
-        history.update_history(f'{a} : {result}\n')
-    except Exception as e:
-        print("Invalid input. Please enter a valid mathematical expression.")
+
+    result = eval(a)
+    os.system('cls')
+    print(f'{a} : {result}')
+    history.update_history(f'{a} : {result}\n')
+
 
     #------------------------------ End Result Calculation -------------------#
 #------------------------------------ End While loop ------------------------------------#

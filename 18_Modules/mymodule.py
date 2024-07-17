@@ -1,9 +1,11 @@
-def greeting(name):  
-    print("Hello, " + name)
+import platform
 
-student = {  
-    "name": "sumit",  
-    "hindi": "85",  
-    "english": 87 
-}
+# x = platform.machine()
+# x = platform.node() 
+# x = platform.processor() 
+# x = platform.system()
+x = platform.win32_edition()
+# x = platform.platform(aliased=False, terse=False) 
+
+print(x)
 

@@ -1,4 +1,3 @@
-
 h = []
 
 def show_History():
