@@ -58,6 +58,8 @@ from time import sleep
 
 # Screenshot Functions
 # a = pyautogui.screenshot() # returns a Pillow/PIL Image object
-pyautogui.screenshot('MSK.png') # returns a Pillow/PIL Image object, and saves it to a file
+# pyautogui.screenshot('MSK.png') # returns a Pillow/PIL Image object, and saves it to a file
 
 # print(a)
+
+

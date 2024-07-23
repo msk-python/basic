@@ -7,6 +7,16 @@ import speech_recognition as sr
 # pip install PyAudio
 # pip install datefinder
 
+e = pyttsx3.init()
+e.setProperty('rate', 125)
+voices = e.getProperty('voices')
+e.setProperty('voice', voices[0].id)
+
+def speak(text):
+    pyttsx3.speak(text)
+    return
+
+
 def query():
     r = sr.Recognizer()
     r.energy_threshold = 500  
@@ -25,46 +35,35 @@ def query():
         print(f"==> Error: {e}")
         return "None"
 
-e = pyttsx3.init()
-e.setProperty('rate', 125)
-voices = e.getProperty('voices')
-e.setProperty('voice', voices[1].id)
-
-def speak(text):
-    e.say(text)
-    e.runAndWait()
-
-while True:
-    import os
-    os.system('cls')
-    user = query()
-    bot = ""
-    if "hi" in user:
-        bot = "Hello"
-        print("Bot: " , bot)
-        speak(bot)
-    elif "notepad" in user:
-        bot = "Ok, Opening Notepad"
-        print("Bot: " , bot)
-        speak(bot)
-        os.system("notepad")
-    elif "calc" in user:
-        bot = "Ok, Opening Calculator"
-        print("Bot: " , bot)
-        speak(bot)
-        os.system("calc")
-    elif 'excel' in user:
-        bot = "Ok Sir, Opening Excel"
-        print("Bot: ", bot)
-        speak(bot)
-        os.system('start excel')
-    elif 'youtube' in user:
-        webbrowser.open('www.youtube.com')
-    elif 'bye' in user or 'ok bye' in user or 'bay' in user:
-        bot = "Ok, Good bye sir"
-        print("Bot: ", bot)
-        speak(bot)
-        break
-        
-        
-    
+if __name__ == "__main__":
+    while True:
+        import os
+        os.system('cls')
+        user = query()
+        bot = ""
+        if "hi" in user:
+            bot = "Hello"
+            print("Bot: " , bot)
+            speak(bot)
+        elif "notepad" in user:
+            bot = "Ok, Opening Notepad"
+            print("Bot: " , bot)
+            speak(bot)
+            os.system("notepad")
+        elif "calc" in user:
+            bot = "Ok, Opening Calculator"
+            print("Bot: " , bot)
+            speak(bot)
+            os.system("calc")
+        elif 'excel' in user:
+            bot = "Ok Sir, Opening Excel"
+            print("Bot: ", bot)
+            speak(bot)
+            os.system('start excel')
+        elif 'youtube' in user:
+            webbrowser.open('www.youtube.com')
+        elif 'bye' in user or 'ok bye' in user or 'bay' in user:
+            bot = "Ok, Good bye sir"
+            print("Bot: ", bot)
+            speak(bot)
+            break
