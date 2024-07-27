@@ -1,7 +1,6 @@
 {
     "editor.mouseWheelZoom": true,
     "code-runner.runInTerminal": true,
-    "debug.terminal.clearBeforeReusing": true,
     "terminal.integrated.mouseWheelZoom": true,
     "terminal.integrated.smoothScrolling": true,
     "python.terminal.focusAfterLaunch": true,

@@ -3,6 +3,7 @@ os.system('cls')
 
 
 class history():
+    
     def show():
         os.system('cls')
         file = open("projects/Calculator/history.txt", "r")
@@ -23,6 +24,7 @@ class history():
         file.write(value)
         file.close()
     
+
 #------------------------------------ Start While loop ------------------------------------#
 while True:
     a = input("\n Enter a value:")
