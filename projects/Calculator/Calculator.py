@@ -1,7 +1,6 @@
 import os 
 os.system('cls')
 
-
 class history():
     
     def show():
@@ -38,15 +37,11 @@ while True:
     elif "c" in a:
         history.clear()
         continue
-
     #------------------------------ Result Calculation -------------------#
-
 
     result = eval(a)
     os.system('cls')
     print(f'{a} : {result}')
     history.update_history(f'{a} : {result}\n')
-
-
     #------------------------------ End Result Calculation -------------------#
 #------------------------------------ End While loop ------------------------------------#

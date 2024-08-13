@@ -22,14 +22,9 @@ Here's what you'll learn:
 ## 🤝 Contributing
 We welcome contributions! If you find any issues or have suggestions for improvements, feel free to create an issue or submit a pull request.
 
-## 📞 Contact Us
+## 🪪 Contact Us
 For any questions or further information, contact us at:
-- **Email**: [mrsumitcontact@gmail.com](mailto:mrsumitcontact@gmail.com)
-- **Phone**: +91 8393042166
+- **📧 Email**: [mrsumitcontact@gmail.com](mailto:mrsumitcontact@gmail.com)
+- **📞 Phone**: +91 8393042166
 
-Happy Learning!
-
-**MSK Institute**
-
-
-# [Next >>](/01_Intro/Introducation.md)
+## 😊 Happy 🧑‍💻 Learning! from [here. >>>](/01_Intro/Introducation.md)

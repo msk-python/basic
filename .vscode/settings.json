@@ -5,5 +5,9 @@
     "terminal.integrated.smoothScrolling": true,
     "python.terminal.focusAfterLaunch": true,
     "files.autoSave": "onFocusChange",
-    "files.autoSaveWhenNoErrors": true
+    "files.autoSaveWhenNoErrors": true,
+    "workbench.colorTheme": "dragan",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.color": "#90a4ae",
+    "material-icon-theme.folders.color": "#90a4ae"
 }
