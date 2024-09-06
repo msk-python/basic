@@ -22,7 +22,6 @@ class history():
         file = open("projects/Calculator/history.txt", "a")
         file.write(value)
         file.close()
-    
 
 #------------------------------------ Start While loop ------------------------------------#
 while True:

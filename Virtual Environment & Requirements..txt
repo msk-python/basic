@@ -15,7 +15,7 @@ create : python -m venv MSK (name of enviroment)
 
 
 Activation : .\MSK\Scripts\activate (path of folder) 
-if error : set-executionpolicy remotesigned (run as Admin)
+if error : set-executionpolicy remotesigned (run as Admin) in PowerShell
 Yes/No : Yes
 then : Activation
 
