@@ -1,7 +1,4 @@
-x = "Hello World"
+x = "MSK Institute"
 
-#display x:
 print(x)
-
-#display the data type of x:
-print(type(x)) 
+print(type(x))

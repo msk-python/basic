@@ -1,8 +1,7 @@
 A = 12      # int
 B = 2.8     # float
-C = "3"     # string
+C = "3"     # int in string
 D = "4.2"   # float in string
-
 
 b = int(B)
 c = int(C)

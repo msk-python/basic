@@ -8,6 +8,10 @@ print(type(B))
 
 a = str(A)
 b = str(B)
+c = str(5)
 
-print(type(a))
-print(type(b))
+print(a)
+print(b)
+print(c)
+
+print(type(a), type(b), type(c))
