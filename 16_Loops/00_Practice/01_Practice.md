@@ -12,6 +12,17 @@ Q6: Write a program to print the even numbers from 1 to 10 using a while loop.
 
 Q7: Write a program to calculate the sum of numbers in a list using a while loop.
 
+```py
+
+a = [2, 12, 5, 34.6]
+
+result = 0
+
+while i in a:
+    result += i
+
+```
+
 Q8: Write a program to find the factorial of a number using a while loop.
 
 Q9: Write a program to count the number of digits in a number using a while loop.

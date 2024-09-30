@@ -4,18 +4,16 @@ import smtplib
 from email.message import EmailMessage
 from datetime import datetime, timedelta
 
-# Configuration
 # OTP_EXPIRATION_TIME = timedelta(minutes=5)  # OTP valid for 5 minutes
 OTP_EXPIRATION_TIME = timedelta(seconds=30)  # OTP valid for 30 Seconds
 
-# Read credentials
 try:
     with open('private/gmail_server_account/gmail.txt', 'r') as file:
         my_gmail = file.read().strip()
 except FileNotFoundError:
     my_gmail = None
     print("Your gmail file not found")
-    
+
 try:
     with open('private/gmail_server_account/password.txt', 'r') as file:
         my_password = file.read().strip()
@@ -26,6 +24,7 @@ except FileNotFoundError:
 # Users data
 users = {
     'sumit8393': 'iamtrynow@gmail.com',
+    'sagar8393': 'sagar@gmail.com',
 }
 
 # OTP storage
@@ -96,5 +95,7 @@ def verify():
 
 def log_In():
     verify()
+
+
 
 log_In()

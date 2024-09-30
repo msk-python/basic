@@ -1,19 +1,21 @@
-Q1: Write a program to check if a number is positive, negative, or zero.
+Write a program to check if a number is `positive`, `negative`, or `zero`.
 
-Q2: Write a program to check if a number is even or odd.
+Write a program to check if a number is `even` or `odd`.
 
-Q3: Write a program to find the largest of three numbers.
+Write a program to find the `largest` of `three` numbers.
 
-Q4: Write a program to check if a year is a leap year.
+Write a program to check if a character is a `vowel` or `consonant`.
 
-Q5: Write a program to check if a character is a vowel or consonant.
+Write a program to check if a number is within `5` to `15`.
 
-Q6: Write a program to check if a number is within a given range.
+Write a program to check if a number is `divisible` by both `2` and `3`.
 
-Q7: Write a program to check if a number is divisible by both 2 and 3.
+Write a program to check if a person is `eligible` to `vote`.
 
-Q8: Write a program to check if a person is eligible to vote.
+Write a program to check if a string is a `palindrome`.
 
-Q9: Write a program to check if a number is prime.
+- sumit, radar , level , fan, civic , madam , rotator, racecar , color,  refer , deified , wow
 
-Q10: Write a program to check if a string is a palindrome.
+Write a program to check if a number is `prime`.
+
+Write a program to check if a year is a `leap year`.

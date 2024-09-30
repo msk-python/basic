@@ -1,3 +1,4 @@
+
 while True:
     a = int(input("Enter value of A : "))
     o = input("Enter Operator: ")

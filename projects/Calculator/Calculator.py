@@ -2,7 +2,6 @@ import os
 os.system('cls')
 
 class history():
-    
     def show():
         os.system('cls')
         file = open("projects/Calculator/history.txt", "r")
@@ -25,7 +24,7 @@ class history():
 
 #------------------------------------ Start While loop ------------------------------------#
 while True:
-    a = input("\n Enter a value:")
+    a = input("\nEnter a value: ")
     if "q" in a:
         os.system('cls')
         print("#------------------ Thanks for Using Me ------------------#\n")
@@ -36,8 +35,8 @@ while True:
     elif "c" in a:
         history.clear()
         continue
-    #------------------------------ Result Calculation -------------------#
 
+    #------------------------------ Result Calculation -------------------#
     result = eval(a)
     os.system('cls')
     print(f'{a} : {result}')

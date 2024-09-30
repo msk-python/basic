@@ -4,20 +4,27 @@ virtual environment
 
 Open CMD/PowerShell as Admin
 
-Old Virsion :
-Install :  pip install virtualenv
 
+
+Old from Python 3.6 Virsion :
+Install :  pip install virtualenv
 create without site packages : virtualenv MSK (name of environment)
 create with site packages : virtualenv --system-site-packages MSK 
 
-New Version:
-create : python -m venv MSK (name of enviroment)
 
+
+
+Python New Version:
+create : python -m venv msk (name of enviroment)
+create with site packages : python -m venv --system-site-packages MSK
 
 Activation : .\MSK\Scripts\activate (path of folder) 
-if error : set-executionpolicy remotesigned (run as Admin) in PowerShell
+if error : set-executionpolicy remotesigned (run as Admin) in PowerShell/CMD/Terminal
 Yes/No : Yes
 then : Activation
+
+
+
 
 Deactivate Environment: deactivate
 

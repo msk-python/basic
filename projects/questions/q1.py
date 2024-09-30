@@ -14,4 +14,3 @@ interest = simple_interest(principal, rate, time)
 
 # Display the simple interest
 print("Simple interest:", interest)
-# Ishwar Mhase
