@@ -1,10 +1,8 @@
-import requests
+import requests # pip install requests
 
 def check_Internet_Access():
     url = 'https://google.com'
-    
     time = 2
-
     try:
         _ = requests.get(url, timeout=time)
         print("Internet Connected")

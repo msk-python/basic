@@ -70,4 +70,4 @@
 
 <br>
 
-># [<<< Back](../01_Intro/Introducation.ipynb) :: [Next >>>](../03_Syntax/Syntax.ipynb)
+># [<<< Back](../01_1_Python_Introduction/Introducation.ipynb) :: [Next >>>](../01_2_Python_Setup/01_VS_Code_Setup.md)
