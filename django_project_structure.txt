@@ -1,0 +1,208 @@
+Python/
+├── 01_Introduction/
+│   ├── 01_1_Python_Introduction/
+│   │   └── Introducation.ipynb
+│   ├── 01_2_Python_Setup/
+│   │   ├── 01_Setup.md
+│   │   ├── 01_VS_Code_Setup.md
+│   │   ├── 01_open_python_setup.png
+│   │   ├── 02_check_points_and_customize_installation.png
+│   │   ├── 03_check_points_and_select_next.png
+│   │   ├── 04_check_points_and_select_browse.png
+│   │   ├── 05_select_this_pc_then_windows_drive.png
+│   │   ├── 06_select_windows_then_make_new_folder.png
+│   │   ├── 07_create_pthon312_folder_then_ok.png
+│   │   ├── 08_check_location_then_install.png
+│   │   └── 09_python_installation_successful.png
+│   ├── 01_3_Syntax/
+│   │   ├── Syntax.ipynb
+│   │   └── TRY.PY
+│   └── 01_4_Comments/
+│       └── Comments.ipynb
+├── 02_Variables/
+│   ├── 00_Practice.ipynb
+│   ├── 01_Creating_a_Variable/
+│   │   ├── Create_Variable.ipynb
+│   │   ├── creating_third_variable.png
+│   │   ├── delte_p_x_variable.png
+│   │   ├── memory_after_two_variable.png
+│   │   ├── sample_memory_block.png
+│   │   └── when_x_and_y_is_equal.png
+│   ├── 02_Output_Variables/
+│   │   └── Output_Variables.ipynb
+│   ├── 03_Multiple_Assignments/
+│   │   └── Assign_Multiple_Values.ipynb
+│   ├── 04_Global_Variables/
+│   │   └── Global_Variables.ipynb
+│   └── Variables.ipynb
+├── 03_Data_Types/
+│   ├── 00_Practice.ipynb
+│   ├── 01_Data_Type/
+│   │   ├── 01_str.py
+│   │   ├── 02_int.py
+│   │   ├── 03_float.py
+│   │   ├── 04_complex.py
+│   │   ├── 05_list.py
+│   │   ├── 06_tuple.py
+│   │   ├── 07_range.py
+│   │   ├── 08_dict.py
+│   │   ├── 09_set.py
+│   │   ├── 10_frozenset.py
+│   │   ├── 11_bool.py
+│   │   ├── 12_bytes.py
+│   │   ├── 13_bytearray.py
+│   │   ├── 14_memoryview.py
+│   │   └── 15_NoneType.py
+│   ├── Core_Data_Types_Map.png
+│   └── notes.ipynb
+├── 04_Numbers/
+│   ├── 00_Practice.ipynb
+│   └── Numbers.ipynb
+├── 05_Strings/
+│   ├── 00_Practice.ipynb
+│   ├── 01_Strings.ipynb
+│   ├── 02_Slicing.ipynb
+│   ├── 03_Modify_Strings.ipynb
+│   ├── 04_String_Concatenation.ipynb
+│   ├── 05_Format_Strings.ipynb
+│   ├── 06_Escape_Characters.ipynb
+│   ├── 07_String_Methods.ipynb
+│   ├── Escape.py
+│   ├── examples/
+│   │   └── example1.py
+│   └── python-string-indexing.webp
+├── 06_Operators/
+│   ├── 00_Practice.ipynb
+│   └── Operators.ipynb
+├── 07_Casting/
+│   ├── 00_Practice.ipynb
+│   ├── Casting.ipynb
+│   └── examples/
+│       ├── example1.py
+│       ├── example2.py
+│       └── example3.py
+├── 08_List/
+│   ├── 00_Practice.ipynb
+│   ├── 01_List_Introduction.ipynb
+│   ├── 02_Create_&_Accessing_Lists.ipynb
+│   ├── 11.2_Add_List_Items.ipynb
+│   ├── 11.3_Remove_List_Items.ipynb
+│   ├── 11.4_Change_List_Items.ipynb
+│   └── 11.5_List_Methods.ipynb
+├── 12_Tuple/
+│   ├── 00_Practice.md
+│   ├── 01_Tuple.ipynb
+│   ├── 02_Access_Tuple_Items.ipynb
+│   ├── 03_Update_Tuple.ipynb
+│   ├── 04_Unpack_Tuples.ipynb
+│   └── 05_Join_Tuples.ipynb
+├── 13_Sets/
+│   ├── 00_Practice.md
+│   ├── 01_Sets.ipynb
+│   ├── 02_Access_Set_Items.ipynb
+│   ├── 03_Add_Set_Items.ipynb
+│   ├── 04_Remove_Set_Items.ipynb
+│   ├── 05_Join_Sets.ipynb
+│   ├── Difference_Python.png
+│   ├── Intersection_Python.png
+│   ├── symmetric_difference.png
+│   └── union_Python.png
+├── 14_Dictionaries/
+│   ├── 00_Practice.md
+│   ├── 01_Dictionaries.ipynb
+│   ├── 02_Access_Dictionary_Items.ipynb
+│   ├── 03_Change_Dictionary_Items.ipynb
+│   ├── 04_Add_Dictionary_Items.ipynb
+│   ├── 05_Remove_Dictionary_Items.ipynb
+│   ├── 06_Copy_Dictionaries.ipynb
+│   ├── 07_Nested_Dictionaries.ipynb
+│   └── 08_Dictionary_Methods.ipynb
+├── 15_Conditional_Statements/
+│   ├── 00_Practice.md
+│   ├── 01_if_elif_else_statements.ipynb
+│   ├── cal1.py
+│   └── p1.py
+├── 16_Loops/
+│   ├── 00_Practice/
+│   │   ├── 00_Practice.md
+│   │   └── 01_Practice.md
+│   ├── 01_While_Loops.ipynb
+│   ├── 02_For_Loops.ipynb
+│   ├── loop.py
+│   └── project/
+│       ├── cal1.py
+│       └── cal2.py
+├── 17_Functions/
+│   ├── 00_Practice.md
+│   ├── 01_Functions.ipynb
+│   ├── Calculator.py
+│   ├── history.txt
+│   ├── more/
+│   │   ├── 01_Built_In_Functions.ipynb
+│   │   └── 02_User_Defined_Functions.ipynb
+│   └── p3.py
+├── 18_OOPS/
+│   ├── 00_practice.md
+│   ├── 01_OOPS.ipynb
+│   ├── main.py
+│   └── try.py
+├── 19_File_Handling/
+│   ├── 00_practice.md
+│   ├── 01_file_handling.ipynb
+│   ├── main.py
+│   ├── sumit.py
+│   └── sumit.txt
+├── 20_Advance_File_Handling/
+│   ├── folder1/
+│   │   ├── file1.py
+│   │   └── folder1_1/
+│   │       └── file3.py
+│   ├── folder2/
+│   │   └── file2.py
+│   └── main.py
+├── 21_Modules/
+│   ├── 01_Modules.ipynb
+│   ├── main.py
+│   ├── modules/
+│   │   ├── module1.py
+│   │   └── module2.py
+│   ├── more/
+│   │   ├── 01_Buit_In_Modules/
+│   │   │   ├── Built_In_Modules.ipynb
+│   │   │   ├── built_in.py
+│   │   │   └── more/
+│   │   │       └── 01_OS.ipynb
+│   │   └── 02_Standard_Library_Modules/
+│   │       ├── bot.py
+│   │       └── external_module.py
+│   └── mymodule.py
+├── README.md
+├── Virtual Environment & Requirements..txt
+├── django_project_structure.txt
+├── error.ipynb
+├── practice/
+│   ├── 00_1_Test.ipynb
+│   ├── 00_Text.md
+│   ├── 01_comments.md
+│   ├── 02_Variables.ipynb
+│   ├── 03_Data_Types.md
+│   ├── 04_Numbers.ipynb
+│   ├── 04_Numbers.md
+│   ├── 05_Casting.md
+│   ├── 06_Operators.md
+│   ├── 07_String.md
+│   ├── 08_List.ipynb
+│   ├── 09_Tuple.ipynb
+│   ├── 10_Set.ipynb
+│   ├── 11_Dictionaries.ipynb
+│   ├── 12_Conditional_Statements.ipynb
+│   ├── 13_For_loop.ipynb
+│   ├── 14_While_loop.ipynb
+│   ├── 15_function.ipynb
+│   ├── 16_oops.ipynb
+│   ├── 17_File_Handling.ipynb
+│   └── sumit.txt
+├── school_management.db
+├── student_management.py
+├── try.py
+└── try1.py
