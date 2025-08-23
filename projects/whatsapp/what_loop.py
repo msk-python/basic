@@ -18,8 +18,6 @@ class whatsapp:
         time.sleep(2)
         pyautogui.write(contact_no)
         time.sleep(0.5)
-        pyautogui.press("down")
-        time.sleep(0.5)
         pyautogui.press("enter")
         time.sleep(0.5)
         pyautogui.write(message)
