@@ -1,4 +1,31 @@
 >___
+># Python Variables
+>
+>Variables are containers for `storing data` values.
+>
+>Variable names are `case-sensitive`.
+>
+>### Create Variable
+>
+>For example, to create a variable name **Student** to hold **student's name** and variable **age** to hold **student's age**
+>
+>```py
+>student = 'Amit'
+>age = 18
+>```
+>
+>| variable  |  Value |
+>| --------  |  ----- |
+>| student   | 'Amit' |
+>| age       |  18    |
+>
+>Variables do not need to be declared with any particular type, and can even change type after they have been set.
+>___
+>
+
+
+
+>___
 ># Create Variable
 >
 >Python has no command for declaring a variable.
@@ -88,6 +115,8 @@
 >```
 >___
 
+
+
 >___
 >### Python Variables memory references
 >
@@ -155,6 +184,3 @@
 >
 >![alt text](delte_p_x_variable.png)
 >___
-
-
-# [<< Back](../01_notes.md) :: [Next >>](../02_Output_Variables/Output_Variables.ipynb)

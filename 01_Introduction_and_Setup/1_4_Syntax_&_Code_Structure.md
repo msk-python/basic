@@ -27,5 +27,3 @@ print("after If condition")
 ```
 
 You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
-
-# [<< Back](../01_2_Python_Setup/02_VS_Code_Setup.md) :: [Next >>](../01_4_Comments/01_notes.md)

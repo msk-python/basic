@@ -59,5 +59,3 @@ print("MSK, !nstitute")
 ```
 
 As long as the string is not assigned to a variable, Python will read the code, but then ignore it, and you have made a multiline comment.
-
-# [<< Back](../01_3_Syntax/Syntax.ipynb) :: [Next >>](../../02_Variables/01_notes.md)
