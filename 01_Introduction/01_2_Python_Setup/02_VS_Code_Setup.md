@@ -72,4 +72,4 @@ VS Code is highly customizable. You can change themes, customize the layout, and
 
 Congratulations! You have successfully set up Visual Studio Code for Python development. You are now ready to start coding in Python. In the next chapter, we will dive deeper into Python's basic concepts and start writing some exciting programs.
 
-># [<<< Back](../01_2_Python_Setup/01_Setup.md) :: [Next >>>](../01_3_Syntax/Syntax.ipynb)
+># [<<< Back](./01_Python_Setup.md) :: [Next >>>](../01_3_Syntax/01_notes.md)

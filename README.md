@@ -19,11 +19,11 @@ Here's what you'll learn:
 
 ## 📋 Table of Contents
 
-01. [01_Intro](./01_Introduction/01_1_Python_Introduction/Introducation.ipynb)
-02. [02_Python_SetUP](./01_Introduction/01_2_Python_Setup/01_Setup.md)
-03. [03_Syntax](./01_Introduction/01_3_Syntax/Syntax.ipynb)
-04. [04_Comments](./01_Introduction/01_4_Comments/Comments.ipynb)
-05. [05_Variables](./02_Variables/Variables.ipynb)
+01. [01_Intro](./01_Introduction/01_1_Python_Introduction/01_notes.md)
+02. [02_Python_SetUP](./01_Introduction/01_2_Python_Setup/01_Python_Setup.md)
+03. [03_Syntax](./01_Introduction/01_3_Syntax/01_notes.md)
+04. [04_Comments](./01_Introduction/01_4_Comments/01_notes.md)
+05. [05_Variables](./02_Variables/01_notes.md)
 06. [06_Data_Types](./06_Data_Types/Data_Types.ipynb)
 07. [07_Numbers](./07_Numbers/Numbers.ipynb)
 08. [08_Casting](./08_Casting/Casting.ipynb)
