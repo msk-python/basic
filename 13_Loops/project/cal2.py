@@ -36,13 +36,13 @@ while True:
     b = int( input( "Enter value of B: " ) )  # 8
 
     if "+" in o:
-        result = a + b # 5   +   8    =     13
+        result = a + b 
         text_result =    a , o,  b , '=' , result 
         h.append( text_result )
         print( 'Result: ' , text_result )
     elif "-" in o:
         result = a - b 
-        text_result =    a , o,  b , '=' , result 
+        text_result =    f"{a}  {o}  {b} = {result}" 
         h.append( text_result )
         print( 'Result: ' , text_result )
 

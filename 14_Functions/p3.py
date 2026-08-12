@@ -14,7 +14,7 @@ while True:
         result = a - b
         print("Result :", result)
         history.append(f"{a} - {b} : {result}")
-        
+
     elif o == "*":
         result = a * b
         print("Result :", result)
