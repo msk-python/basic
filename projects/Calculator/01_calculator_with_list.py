@@ -2,16 +2,12 @@ import os
 os.system('cls')
 
 class History:
-
     def __init__(self):
         self.data = []
-
     def show(self):
         print(self.data)
-
     def clear(self):
         self.data.clear()
-
     def update(self, result):
         self.data.append(result)
 

@@ -1,90 +1,3 @@
->___
-># Python Variables
->
->Variables are containers for `storing data` values.
->
->Variable names are `case-sensitive`.
->
->### Create Variable
->
->For example, to create a variable name **Student** to hold **student's name** and variable **age** to hold **student's age**
->
->```py
->student = 'Amit'
->age = 18
->```
->
->| variable  |  Value |
->| --------  |  ----- |
->| student   | 'Amit' |
->| age       |  18    |
->
->Variables do not need to be declared with any particular type, and can even change type after they have been set.
->___
->
-
-
-
->___
-># Create Variable
->
->Python has no command for declaring a variable.
->
->A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). 
->
->**Rules:** for Python variables:
->
->- A variable name must `start` with a `letter (A)` or the `underscore (_)` character
->- A variable name `cannot` start with a `number`
->- A variable name can only contain `alpha-numeric` characters and underscores `(A-z, 0-9, and _ )`
->- Variable names are `case-sensitive` (age, Age and AGE are three different variables)
->- A variable name `cannot` be any of the Python `keywords`.
->___
-
->___
->### Reserve keyword in Python
->Python does not permit the use of some words for naming the variable. These words are reserved by python programming language hence known as Reserved Keywords. Complete list of python reserved keywords is given below.
->
->>```py
->>help("keywords") # run in python cmd
->>```
->
->```py
->False               class               from                or
->None                continue            global              pass
->True                def                 if                  raise
->and                 del                 import              return
->as                  elif                in                  try
->assert              else                is                  while
->async               except              lambda              with
->await               finally             nonlocal            yield
->break               for                 not
->```
->___
-
->___
->### Legal variable names ✅
->>```py
->># variable = value
->>myname = "Sumit"
->>my_name = "Sumit"
->>_my_name = "Sumit"
->>myName = "Sumit"
->>MYNAME = "Sumit"
->>myname2 = "Sumit"
->>```
->
->### Illegal variable names ❎:
->>```py
->>2myname = "Sumit"
->>my-name = "Sumit"
->>my name = "Sumit"
->>@my_name = "Sumit"
->>&my_name = "Sumit"
->>```
->___
-
-
 
 
 >___
@@ -101,19 +14,8 @@
 >myVariableName = "Sumit Kumar"
 >```
 >
->### Pascal Case
->Each word starts with a capital letter:
->
->```py
->MyVariableName = "Sumit Kumar"
->```
->
->### Snake Case
->Each word is separated by an underscore character:
->```py
->my_variable_name = "Sumit Kumar"
->```
->___
+
+
 
 
 

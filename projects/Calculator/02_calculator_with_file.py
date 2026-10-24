@@ -8,7 +8,7 @@ class History:
 
         # Create file if not exists
         if not os.path.exists(self.filename):
-            open(self.filename, 'w').close()
+            open(self.filename, 'x').close()
 
     def show(self):
         with open(self.filename, 'r') as file:

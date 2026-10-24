@@ -1,8 +1,7 @@
-
 while True:
     a = int(input("Enter value of A : "))
-    o = input("Enter Operator: ")
     b = int(input("Enter value of B : "))
+    o = input("Enter Operator: ")
 
     if o == "+":
         print("Result :", a + b)

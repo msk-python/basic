@@ -29,8 +29,8 @@ while True:
         for x in h:
             print("    " ,x)
         print("\n#--------------- End History -------------#\n")
-        continue    
-    
+        continue
+
     a = int( input( "Enter value of A: " ) )  # 5
     o = input( "Select Operator: " )          # +
     b = int( input( "Enter value of B: " ) )  # 8
@@ -46,6 +46,5 @@ while True:
         h.append( text_result )
         print( 'Result: ' , text_result )
 
-   
     else:
         print("Invalid")
